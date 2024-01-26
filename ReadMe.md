@@ -42,12 +42,19 @@ The width of the text String to add is then calculated, and compared to the imag
 If there is no text overflow, the String is drawn to the dimmed image by using a graphics object, and the final post is saved into the `final_posts` folder.
 
 If the String is determined to be so large that it would cause text overflow, then the number of required lines in which to split the String is calculated.
-Futhrermore, another method called `lineSplit()` is called to separate the 
+Furthermore, another method called `lineSplit()` is called to separate the String into the previously calculated number of required lines.
+
+With the calculated required number of lines and the initial overflowing String separated into multiple Strings, the graphics object is used multiple times in a loop to draw each String segment, one under the previous, effectively creating a final Instagram Post with multi-line text.
+
+Down below is an example of the folder of 10 dimmed images to which text has been added (within a few seconds), as well as the Instagram handle watermark at the very bottom:
 
 ![bulk text add example](https://github.com/RealMaximeCaloz/Portfolio/blob/main/BULK_TEXT_ADD_EXAMPLE.png)
 
+Finally, down below is a close-up of 1 generated Instragram post:
 
 ![Generated Post Example](https://github.com/RealMaximeCaloz/Portfolio/blob/659ff8ed04789975d6ebd01467d5a3e4f0e59800/GeneratedInstagramPostExample.jpg)
+
+Overall, this software can save any company with an Instagram presence an incredible number of hours of work.
 
 # Installation
 1. Clone this repository:
