@@ -7,7 +7,7 @@ After running it, the Bulk Image Cropper prompts the user for the dimensions of 
 
 Images fed into the Bulk Image Cropper must be smaller than the desired cropping zone. It is recommended to use a cropping zone of around 900x900pixels.
 
-Thanks to the Bulk Image Cropper, you can load in thousands of textures into the Commercial Bulk Instragram Post Generator, without having to spend any time and energy formatting them yourself.\
+Thanks to the Bulk Image Cropper, you can load in thousands of textures into the Commercial Bulk Instragram Post Generator, without having to spend any time and energy formatting them yourself.
 
 Down below is an example of a folder of 10 texture images that have been cropped and renamed by this software (almost instantly):
 
